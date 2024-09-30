@@ -1,0 +1,83 @@
+---
+
+---
+
+<style>
+  nav {
+    margin: 20px;
+  }
+
+
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  pre {
+    padding: 10px;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  .estado-civil {
+    color: rgb(72, 156, 156);
+  }
+  
+</style>
+
+<nav>
+    <ul>
+      <li><a href="/"><strong>Sebastian</strong></a></li>
+    </ul>
+    <ul>
+      <li><a class="secondary" id="change-theme"><i id="icon-theme" class="fa-solid fa-sun"></i></a></li>
+      <li><a id="sobre-mi" class="contrast">Sobre mi</a></li>
+      <li><a href="#novias" class="contrast">Novias</a></li>
+      <li><a href="#anectodas" class="contrast">Anectodas</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <dialog id="sobre-mi-dialog">
+    <article>
+      <header>
+        <button id="close" aria-label="Close" rel="prev"></button>
+        <p>
+          <strong>Sobre mi</strong>
+        </p>
+      </header>
+      <p>
+        Que onda persona que visita mi web, aqui esta informacion mia por si quieres saber sobre mi, en resumen soy sebas, tengo 14 años y me gusta mucho hacerme la paja.
+      </p>
+      
+        <center>
+        <img src="../../public/sebas.png" width="150" height="150" alt="Foto de perfil de sebas">
+      
+          <br>
+        <b>Yo cuando estuve en los 15 años de mi prima JAJAJA</b>
+      </center>
+      <hr>
+      <label>Nombre completo</label>
+    
+
+      <pre>Sebastian Rascon Valadez</pre>
+      <label class="estado-civil">Estado Civil</label>
+      <pre>Soltero por si alguien me quiere CHII</pre>
+      <label>Edad</label>
+      <pre>14 años apenas</pre>
+      <label>Lugar de nacimiento</label>
+      <pre>Pues Aguascalientes papi</pre>
+      <label>Ocupacion</label>
+      <pre>La paja</pre>
+      <label>Dinero</label>
+      <pre>$0 me robaron hdpts</pre>
+      <label>Deudas</label>
+      <pre>Nada</pre>
+    </article>
+  </dialog>
+
+  <script src="../scripts/changeTheme.js"></script>
+  <script src="../scripts/dialogs.js"></script>
