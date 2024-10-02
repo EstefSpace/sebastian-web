@@ -1,0 +1,33 @@
+---
+import LayoutSimple from "../layouts/LayoutSimple.astro";
+---
+
+<LayoutSimple title="Erro 404 - Ruta no encontrada">
+
+    <style>
+        .error404 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        .text {
+            align-self: center;
+            text-align: center;
+        }
+        h2 {
+            color: yellow;
+        }
+    </style>
+
+    <div class="error404">
+        <div class="text">
+            <h2>ERROR 404</h2>
+        <hr>
+        <p>La ruta que intentas acceder no existe</p>
+        <hr>
+        <a href="/" class="secondary"><button class="secondary">Volver a inicio</button></a>
+        </div>
+    </div>
+</LayoutSimple>
