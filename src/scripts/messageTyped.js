@@ -1,6 +1,6 @@
 import Typed from 'typed.js';
 
 const typed = new Typed('.typed', {
-  strings: ['pajero', 'inteligente', 'huevon', 'guapo', 'deportista', 'defensa', 'futbolista'],
+  strings: ['pajero', 'inteligente', 'huevon', 'guapo', 'cachondo', 'sexy', 'mamon',  'futbolista'],
   typeSpeed: 50,
 });
