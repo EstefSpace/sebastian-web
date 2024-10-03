@@ -1,24 +1,14 @@
 ---
 import LayoutSimple from "../layouts/LayoutSimple.astro";
 import Navbar from "../components/navbar.astro";
+import Content from "../components/anectodas.astro";
 import Footer from "../components/footer.astro";
 ---
 
 <LayoutSimple title="Anectodas - Web Personal" favicon="../sebas.png">
     <Navbar></Navbar>
 
-    <style>
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 90vh;
-        }
-    </style>
-    <div class="container">
-        <h2>Proximamente...</h2>
-    </div>
-
+    <Content></Content>
+ 
     <Footer></Footer>
 </LayoutSimple>
