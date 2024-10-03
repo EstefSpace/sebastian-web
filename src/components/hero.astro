@@ -19,28 +19,35 @@
     }
 
    img {
-    width: 128px;
-    height: 128px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    margin-left: 25px;
    }
 
-   h2 {
-    color: #25b9db
+   h1 {
+    font-size: 50px;
+    text-align: center;
    }
 
+   a { 
+    font-size: 28px;
+   }
+   span {
+    color: #25b9db;
+   }
+
+   article { 
+    margin: 25px;
+   }
 </style>
 
 <div class="hero">
     <div class="text">
-        <article>
-            <header><h2>¡Bienvenid@ a mi web!</h2></header>
-        <p>Me presento soy sebas el pajero 🍌</p>
-        <hr>
-        <img src="sebas.png" alt="Foto de perfil de sebas">
-
-        <footer><a data-tooltip="sebastian678.0 😏" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/sebastian678.0?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="secondary"><i class="fa-brands fa-instagram"></i></a> <a href="#" data-tooltip="Te lo paso por ig 😈" class="secondary"><i class="fa-brands fa-whatsapp"></i></a></footer>
-            
-        
-        </article>
+        <div class="grid">
+            <div class="texto-otro"><h1>Hola soy Sebastian, el <span>pajero</span></h2></div>
+                <div class="image"><img src="sebas.png" alt="Foto de perfil de sebastian"></div>
+        </div>
+        <article><a data-tooltip="sebastian678.0 😏" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/sebastian678.0?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="secondary"><i class="fa-brands fa-instagram"></i></a> <a href="#" data-tooltip="Te lo paso por ig 😈" class="secondary"><i class="fa-brands fa-whatsapp"></i></a></article>
     </div>
 </div>
